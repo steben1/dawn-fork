@@ -3454,3 +3454,12 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
+
+/* Add this to the bottom of your base.css file */
+.header-wrapper {
+  background-color: #79000f; /* Change to your desired color */
+}
+
+.header__menu-item {
+  color: #ffffff; /* Change to your desired text color */
+}
