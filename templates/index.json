@@ -34,7 +34,7 @@
         "button_hYhAyT"
       ],
       "custom_css": [
-        ".rich-text__heading {background-color: red;}"
+        ".rich-text__heading {background-color: green;}"
       ],
       "settings": {
         "desktop_content_position": "center",
