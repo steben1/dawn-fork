@@ -1,41 +1,48 @@
 {
   "sections": {
-    "collage_Xaaydz": {
-      "type": "collage",
+    "rich_text_MUYmzU": {
+      "type": "rich-text",
       "blocks": {
-        "image_VqRttm": {
-          "type": "image",
+        "heading_DUqeCh": {
+          "type": "heading",
           "settings": {
+            "heading": "I GIT, therefore I am",
+            "heading_size": "h1"
           }
         },
-        "product_bADiNh": {
-          "type": "product",
+        "text_qf9VgL": {
+          "type": "text",
           "settings": {
-            "product": "",
-            "second_image": false
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
         },
-        "collection_AY8LG3": {
-          "type": "collection",
+        "button_hYhAyT": {
+          "type": "button",
           "settings": {
-            "collection": ""
+            "button_label": "Go!",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "image_VqRttm",
-        "product_bADiNh",
-        "collection_AY8LG3"
+        "heading_DUqeCh",
+        "text_qf9VgL",
+        "button_hYhAyT"
+      ],
+      "custom_css": [
+        ".rich-text__heading {background-color: red;}"
       ],
       "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "image_banner": {
@@ -251,7 +258,7 @@
     }
   },
   "order": [
-    "collage_Xaaydz",
+    "rich_text_MUYmzU",
     "image_banner",
     "rich_text",
     "featured_collection",
