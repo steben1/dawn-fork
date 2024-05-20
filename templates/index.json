@@ -1,5 +1,13 @@
 {
   "sections": {
+    "custom_test_s2_DyaGV3": {
+      "type": "custom-test-s2",
+      "settings": {
+        "heading": "Here I am",
+        "subheading": "Let's develop this shop!",
+        "button_text": "Yes Man!"
+      }
+    },
     "rich_text_MUYmzU": {
       "type": "rich-text",
       "blocks": {
@@ -258,6 +266,7 @@
     }
   },
   "order": [
+    "custom_test_s2_DyaGV3",
     "rich_text_MUYmzU",
     "image_banner",
     "rich_text",
